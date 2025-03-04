@@ -4,15 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
-
-
 }
-
-
-
-
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -22,10 +14,6 @@ body {
     min-height: 100vh;
     background: linear-gradient(90deg, #e0e0e023, #9FACE6);
 }
-
-
-
-
 .contanier{
     position: relative;
     width: 850px;
@@ -37,10 +25,6 @@ body {
     overflow: hidden;
     margin: 20px;
 }
-
-
-
-
 .from-box {
     position: absolute;
     width: 50%;
@@ -57,63 +41,34 @@ body {
     z-index: 1;
     transition: .6s ease-in-out 1s ,visible 0s 1s;
 }
-
-
-
-
 .contanier.active .from-box{
     right: 50%;
-   
 }
 .from-box.login{
     transition-delay: .5s;
 }
 .from-box.register{
 visibility: hidden;
-
-
 transition-delay: .5s;
-
-
 }
 .contanier.active .from-box.register{
     visibility: visible;
-
-
-
-
     }
-
-
-
-
 .contanier.active #lock{
         visibility: hidden;
 }
 form{
     width: 100%;
 }
-
-
-
-
 .contanier h1 {
     font-size: 3rem;
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-
-
-
-
 .input-box{
     position: relative;
     margin: 30px 0;
 }
-
-
-
-
 .input-box input {
     width: 100%;
     background: aliceblue;
@@ -123,19 +78,11 @@ form{
     padding: 14px 50px 14px 20px;
     font-size: 16px;
 }
-
-
-
-
 input::placeholder {
     color: #aaa;
     font-style: italic;
     font-weight: bold;
 }
-
-
-
-
 .input-box i {
     position: absolute;
     right: 20px;
@@ -144,10 +91,6 @@ input::placeholder {
     font-size: 20px;
     color: #888;
 }
-
-
-
-
 .forgetlink a{
     color: #333;
     font-size: 14px;
@@ -155,33 +98,16 @@ input::placeholder {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
-
-
-
-
-   
 }
-
-
-
-
 .forgetlink{
     margin-top: -15px;
     margin-bottom: 15px;
     text-align: center;
 }
-
-
-
-
 .forgetlink a:hover {
     color: #6e8efb;
     text-decoration: underline;
 }
-
-
-
-
 .btn{
     display: inline-block;
     padding: 12px 110px 12px 110px;
@@ -199,18 +125,10 @@ input::placeholder {
     overflow: hidden;
     transition: transform 0.1s, box-shadow 0.3s;
 }
-
-
-
-
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
 /* Add shine effect on hover */
 .btn::before {
     content: '';
@@ -223,10 +141,6 @@ input::placeholder {
     transform: skewX(-30deg);
     transition: left 0.5s;
 }
-
-
-
-
 .btn:hover::before {
     left: 100%;
 }
@@ -241,8 +155,6 @@ margin-top: 30px;
 display: flex;
 justify-content: center;
 }
-
-
 .social-icon a {
     display: inline-flex;
 padding: 10px;
@@ -258,8 +170,6 @@ position: relative;
     background: #6e8efb;
     color: #ffffff;
 }
-
-
 /* toggle  */
 .toggle-box{
     position: absolute;
@@ -358,8 +268,6 @@ transition-delay: 0.8s;
         font-size: 15px;
         transition: 1.5s;
     }
-
-
     .btn{
         font-size: 15px;
         transition: .5s;
@@ -375,8 +283,6 @@ transition-delay: 0.8s;
     .from-box .social-icon{
         margin: 0;
     }
-
-
     .from-box.register h1{
         font-size: 30px;
     }
@@ -426,8 +332,6 @@ transition-delay: 0.8s;
         bottom: 30%;
     }
 }
-
-
 .from-box.register h1{
     font-size: 2rem;
 }
